@@ -13,10 +13,12 @@
 
 ### 步骤
 
- 1. Fork 本专案到自己的 GitHub 账户（用户名以 `example` 为例）
+ 1. Fork 本项目到自己的 GitHub 账户（用户名以 `example` 为例）
  2. 如果有需要，修改UUID。在  `entrypoint.sh` 这个文件里修改
- 3. 点击部署 ![image](https://user-images.githubusercontent.com/89477009/133904828-38ef592c-ece3-45e7-a85e-812af23b756a.png)
- 4. 按要求链接后，找到本项目 ![image](https://user-images.githubusercontent.com/89477009/133905123-d40e3b72-49a5-46ca-9755-995f15dd49e5.png)  部署就行了
+ 3. 点击部署
+![image](https://user-images.githubusercontent.com/89477009/133904828-38ef592c-ece3-45e7-a85e-812af23b756a.png)
+ 4. 按要求链接后，找到本项目部署
+![image](https://user-images.githubusercontent.com/89477009/133905123-d40e3b72-49a5-46ca-9755-995f15dd49e5.png)
 
  
 
@@ -24,9 +26,13 @@
 
 对部署时需设定的变量名称做如下说明。
 
-`ID`：`ad806487-2d26-4636-98b6-ab85cc8521f7`
-`AID`：`64`
-`WSPATH`：`/`
+`uuid`：`ad806487-2d26-4636-98b6-ab85cc8521f7`
+`端口`：`443`
+`额外id`：`64`
+`传输协议`：`ws`
+`伪装域名`：`okteto app的域名或cf workers域名`
+`路径`：`/`
+`底层传输安全`：`tls`
 
 ## 接入 CloudFlare
 
