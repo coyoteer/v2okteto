@@ -12,12 +12,14 @@
 
 ### 步骤
 
- 1. Fork 本项目到自己的 GitHub 账户（用户名以 `example` 为例）
- 2. 如果有需要，修改UUID。在  `entrypoint.sh` 这个文件里修改
- 3. 点击部署
-![image](https://user-images.githubusercontent.com/89477009/133904828-38ef592c-ece3-45e7-a85e-812af23b756a.png)
- 4. 按要求链接后，找到本项目部署
-![image](https://user-images.githubusercontent.com/89477009/133905123-d40e3b72-49a5-46ca-9755-995f15dd49e5.png)
+1. 登录Okteto云，点击Deploy
+
+![](https://img.misaka.sbs/imgs/20210919162316.png)
+
+2. 复制本项目的git地址 `https://github.com/vhqyeo50893/v2okteto.git`
+3. 点击Git URL，粘贴git地址，点击`Deploy`
+
+![](https://img.misaka.sbs/imgs/20210919162442.png)
 
  
 
